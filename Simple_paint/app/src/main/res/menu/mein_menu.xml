@@ -1,0 +1,35 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PaintActivity">
+
+
+<item android:id="@+id/action_save"
+    android:orderInCategory="100"
+    android:title="Save pic"
+
+    />
+    <item android:id="@+id/action_Load"
+        android:orderInCategory="100"
+        android:title="Save pic"
+
+        />
+    <item android:id="@+id/action_color"
+        android:orderInCategory="100"
+        android:title="Save pic"
+
+        />
+    <item android:id="@+id/action_stroke"
+        android:orderInCategory="100"
+        android:title="Save pic"
+
+        />
+    <item android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:title="Save pic"
+
+        />
+    <!--android:showAsAction="never"-->
+
+</menu >

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Task_4_notebook</string>
+    <string name="person_id">put id</string>
+    <string name="person_lnamestr">put lname</string>
+    <string name="person_sname">put sname</string>
+    <string name="person_phone">put phone</string>
+    <string name="person_email">put mail</string>
+    <string name="person_skype">put skype</string>
+    <string name="person_button">SAVE</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task_4</string>
+    <string name="put_id_et">Put ID</string>
+    <string name="put_name_et">Put Name</string>
+    <string name="put_last_name_et_txt">Put SurName</string>
+    <string name="put_phone_et_txt">Put Phone</string>
+    <string name="put_skype_et_txt">Put Skype</string>
+    <string name="put_mail_et_txt">Put Mail</string>
+    <string name="save_btn_txt">SAVE</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="phone_et_txt">Phone</string>
+    <string name="skype_et_txt">Skype</string>
+    <string name="mail_et_txt">Mail</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.artyom.calc_4_fild_and_button.CalcActivity">
+
+  <EditText
+      android:id="@+id/edit_text_first_value"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:hint="txt_put_first_value" />
+    <EditText
+        android:id="@+id/edit_text_operartor_value"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="txt_put_first_value"
+        android:layout_below="@id/edit_text_first_value"
+        android:paddingBottom="10dp"/>
+    <EditText
+        android:id="@+id/edit_text_second_value"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="txt_put_first_value"
+        android:layout_below="@id/edit_text_operartor_value"/>
+    <Button
+        android:id="@+id/button_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calc"
+        android:layout_below="@id/edit_text_second_value"
+        android:paddingBottom="10dp"/>
+    <EditText
+        android:id="@+id/edit_text_result"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/button_calc"
+        android:paddingBottom="10dp"/>
+  <!--android:hint="txt_put_first_value"-->
+    <TextView
+        android:id="@+id/view_text_result"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Output"
+        android:layout_below="@id/button_calc"
+        android:paddingBottom="10dp"/>/>
+</RelativeLayout>

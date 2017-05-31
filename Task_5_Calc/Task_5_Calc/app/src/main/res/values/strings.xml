@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Task_5_Calc</string>
+    <string name="btn_7">7</string>
+    <string name="btn_8">8</string>
+    <string name="btn_9">9</string>
+    <string name="btn_div">/</string>
+    <string name="btn_4">4</string>
+    <string name="btn_5">5</string>
+    <string name="btn_6">6</string>
+    <string name="btn_mult">*</string>
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_min">-</string>
+    <string name="btn_0">0</string>
+    <string name="btn_C">C</string>
+    <string name="btn_plus">+</string>
+    <string name="btn_eq">=</string>
+    <string name="txt_edit_text_first_value">fv</string>
+    <string name="txt_edit_text_operand">oper</string>
+    <string name="txt_edit_text_second_result">sec</string>
+    <string name="txt_edit_text_result">string/txt_edit_text_result</string>
+</resources>

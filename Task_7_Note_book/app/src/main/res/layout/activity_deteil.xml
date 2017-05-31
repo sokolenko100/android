@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_fname_person"
+        android:hint="ferstName"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_lname_person"
+        android:hint="SurName"
+        android:layout_below="@+id/item_fname_person"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_phone_person"
+        android:hint="Phone"
+        android:layout_below="@+id/item_lname_person"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_mail_person"
+        android:hint="Mail"
+        android:layout_below="@+id/item_phone_person"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_skype_person"
+        android:hint="Skype"
+        android:layout_below="@+id/item_mail_person"/>
+
+    <Button
+        android:text="CANCEL"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_cancele"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="270dp" />
+
+    <Button
+        android:text="SAVE"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_save"
+        android:layout_marginStart="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
